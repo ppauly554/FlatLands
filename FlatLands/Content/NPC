@@ -1,0 +1,78 @@
+{
+    'Main Quest': {
+        'Requirements': (
+            (None, None),
+            (None, None)
+         ),
+        'Section': 0,
+        'Part': 0,
+        'Quest': None,
+        'Locations': (
+            (119,155),
+            (0, 0)
+        ),
+        'Completed': (
+            False,
+            False
+        ),
+        0: (
+            'Hello and welcome to the Flatlands.',
+            'You must be new here so I will guide you around.',
+            'This town is made up of people who need a leader',
+            'These people will give you missions and tasks',
+            'These missions will advance you Crafter and reward you.',
+            'When you press "E" you will open your Crafter.',
+            'The Crafter will let you build items that you can use.',
+            'The tab that says "Build" has building items.',
+            'The tab that says "Tools" has tools and weapons.',
+            'The tab that says "Food" has foods which provide health.',
+            'Now that you understand the Crafter,',
+            'let me move onto the town,',
+            'This town was built in hope of prosperity,',
+            'but as quickly as it was made, it was destroyed.',
+            'Now that you have come along, it is up to you to lead us,',
+            'Here is an axe, use this to cut down some trees',
+            'get me some wood and I\'ll show you how to get around.',
+            'Get me Some wood to continue.'
+        ),
+        'Quests': {
+            0: 'GUIDE:\nGet the Guide\nSome Wood'
+        },
+        'Completion':{
+            0: 'Good job, Go see the Fisherman'
+        }
+    },
+    'Fisherman': {
+        'Requirements': (
+            ('Main Quest',0),
+            (None,None)
+        ),
+        'Section': 0,
+        'Part': 0,
+        'Quest': None,
+        'Locations': (
+            (112,175),
+            (0, 0)
+        ),
+        'Completed': (
+            False,
+            False
+        ),
+        0: (
+            'Hello, I\'m the Fisherman of Flatlands,',
+            'You can call me Willy.',
+            'My job as a Fisherman is to provide the people with food,',
+            'The guide told me about you,',
+            'he told me that I should give you this fishing rod.',
+            'This rod should aid you in your fishing ventures.',
+            'Come back with a Bass and I\'ll show you some recipes.',
+            'Get me a Bass to continue'
+        ),
+        'Quests': {
+            0: 'Willy:\nGet the fisherman\nBass'
+        },
+        'Completion':{
+            0: 'Good job'
+        }
+    }
+}

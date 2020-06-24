@@ -1,0 +1,5 @@
+{
+    'quests': pygame.font.Font(None, 25),
+    'chatbox': pygame.font.Font(None, 50),
+    'keybox': pygame.font.Font(None, 35)
+}
