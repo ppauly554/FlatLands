@@ -130,7 +130,7 @@ def TEXT(font, text, location, boxed=False, text_color=(0, 0, 0)):
 def E_load():
     if NPC_DICT[NPC()[1]]['Requirements'][NPC_DICT[NPC()[1]]['Section']][0] is not None:
         if NPC_DICT[NPC_DICT[NPC()[1]]['Requirements'][NPC_DICT[NPC()[1]]['Section']][0]]['Completed'][
-            NPC_DICT[NPC()[1]]['Section']]:
+                NPC_DICT[NPC()[1]]['Section']]:
             TEXT(FONT_DICT['keybox'], 'E', (500 + steve.XO * 20, 500 + steve.YO * 20 - 50), True)
     else:
         TEXT(FONT_DICT['keybox'], 'E', (500 + steve.XO * 20, 500 + steve.YO * 20 - 50), True)
@@ -215,7 +215,7 @@ while run:
                             steve.interacting = False
                     elif NPC_DICT[NPC()[1]]['Requirements'][NPC_DICT[NPC()[1]]['Section']][0] is not None:
                         if NPC_DICT[NPC_DICT[NPC()[1]]['Requirements'][NPC_DICT[NPC()[1]]['Section']][0]][
-                            'Completed'][NPC_DICT[NPC()[1]]['Section']]:
+                                'Completed'][NPC_DICT[NPC()[1]]['Section']]:
                             steve.interacting = True
                     else:
                         steve.interacting = True
